@@ -1,0 +1,27 @@
+package com.alfanthariq.moviedb.utils
+
+import android.content.Context
+import android.net.ConnectivityManager
+import retrofit2.HttpException
+
+
+object NetworkUtil {
+
+    /**
+     * Returns true if the Throwable is an instance of RetrofitError with an
+     * http status code equals to the given one.
+     */
+    val live = "https://api.themoviedb.org/3/"
+    var useAPI = live
+    val apiKey = "6d360c412baa6922132b1253eefef87c"
+
+    fun isHttpStatusCode(throwable: Throwable, statusCode: Int): Boolean {
+        return throwable is HttpException && throwable.code() == statusCode
+    }
+
+    fun isNetworkConnected(context: Context): Boolean {
+        val cm = context.getSystemService(Context.CONNECTIVITY_SERVICE) as ConnectivityManager
+        val activeNetwork = cm.activeNetworkInfo
+        return activeNetwork != null && activeNetwork.isConnectedOrConnecting
+    }
+}

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 4 inch and below phone -->
+
+    <dimen name="spacing_xsmall">1dp</dimen>
+    <dimen name="spacing_small">2dp</dimen>
+    <dimen name="spacing_medium">3dp</dimen>
+    <dimen name="spacing_xmedium">5dp</dimen>
+    <dimen name="spacing_middle">7dp</dimen>
+    <dimen name="spacing_large">10dp</dimen>
+    <dimen name="spacing_smlarge">13dp</dimen>
+    <dimen name="spacing_mlarge">17dp</dimen>
+    <dimen name="spacing_mxlarge">20dp</dimen>
+    <dimen name="spacing_xlarge">25dp</dimen>
+    <dimen name="spacing_xmlarge">33dp</dimen>
+    <dimen name="spacing_xxlarge">40dp</dimen>
+    <dimen name="spacing_xxxlarge">50dp</dimen>
+    <dimen name="appbar_padding_top">8dp</dimen>
+
+    <dimen name="toggleFontSize">10dp</dimen>
+
+    <dimen name="font_xsmall">5sp</dimen>
+    <dimen name="font_small">7sp</dimen>
+    <dimen name="font_medium">9sp</dimen>
+    <dimen name="font_xmedium">11sp</dimen>
+    <dimen name="font_middle">12sp</dimen>
+    <dimen name="font_large">13sp</dimen>
+    <dimen name="font_smlarge">15sp</dimen>
+    <dimen name="font_mlarge">17sp</dimen>
+    <dimen name="font_mxlarge">20sp</dimen>
+    <dimen name="font_xlarge">22sp</dimen>
+    <dimen name="font_xmlarge">25sp</dimen>
+    <dimen name="font_xxlarge">30sp</dimen>
+    <dimen name="font_xxxlarge">35sp</dimen>
+</resources>

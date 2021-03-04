@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">MovieDB</string>
+
+    <!--LOADING-->
+    <string name="loading">Mohon Tunggu..</string>
+
+    <!--ERROR VIEW-->
+    <string name="no_connection">Tidak Ada Internet</string>
+    <string name="error_connection">Koneksi Internet Bermasalah</string>
+    <string name="error_connection2">Ooppss, Terjadi Kesalahan</string>
+    <string name="btn_no_connection">Coba Lagi</string>
+    <string name="no_gps">Mohon Aktifkan GPS Anda</string>
+
+    <string name="clear">
+        <u>Clear selection</u>
+    </string>
+</resources>
